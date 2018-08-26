@@ -1,0 +1,42 @@
+.cmk-center {text-align:center !important;}
+
+@media screen and (max-width: 700px) {
+.lw-stuff {
+width: 100% !important;
+ }
+
+	.mk-go-top.is-active {
+    top: 10px !important;
+		bottom: auto !important;
+}
+}
+
+
+/* ------
+Hide Site
+------ */
+div#hide-site {
+    position: fixed;
+    right: 10%;
+    top: 90px;
+    z-index: 1000;
+}
+div#hide-site button {
+    background: #F0CCBE;
+    color: #3b4248;
+    border: 4px solid white;
+    box-shadow: none;
+    font-weight: bold;
+    padding: 0.4em;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+div#hide-site button:hover {
+    background: #F0244d;
+}
+@media screen and (max-width: 1139px) {
+    div#hide-site {
+        top: 80px;
+        right: 10%;
+    }
+}
